@@ -2,7 +2,7 @@
 
 Personal portfolio — a static site with a CRT-terminal aesthetic covering everything currently on the bench: TokenHub, Autopilot, Storyloom, Sigil, BodyTrack:AI, HouseTab, Morrow, and Agentic OS.
 
-**Live:** https://cole-portfolio-wheat.vercel.app
+**Live:** https://colemclauchlan.com
 
 ![Project library](media/site-projects.png)
 
