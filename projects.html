@@ -75,7 +75,7 @@
               <img src="./media/autopilot-dashboard.png" alt="Autopilot for Windows dashboard" width="1280" height="800" loading="lazy" draggable="false" />
             </span>
             <span class="card-info">
-              <span class="lib-status">Active &middot; private build</span>
+              <span class="lib-status">Active &middot; open source</span>
               <span class="card-name">Autopilot for Windows</span>
               <span class="card-desc">Automated Twitch &rarr; Shorts pipeline with a GUI for everything.</span>
               <span class="lib-open">Open project &rarr;</span>
@@ -87,7 +87,7 @@
               <img src="./media/storyloom-hub.png" alt="The Storyloom hub with workflow templates" width="1280" height="800" loading="lazy" draggable="false" />
             </span>
             <span class="card-info">
-              <span class="lib-status">Active &middot; private build</span>
+              <span class="lib-status">Active &middot; open source</span>
               <span class="card-name">Storyloom</span>
               <span class="card-desc">An AI media hub &mdash; one node canvas for 2D, 3D, storyboard, and previz.</span>
               <span class="lib-open">Open project &rarr;</span>
@@ -96,11 +96,11 @@
 
           <button class="lib-card" data-dialog="dlg-sigil" type="button">
             <span class="card-thumb">
-              <img src="./media/sigil-tabletop.png" alt="Sigil multiplayer tabletop lobby" width="1280" height="800" loading="lazy" draggable="false" />
+              <img src="./media/sigil-landing.png" alt="Sigil multiplayer tabletop landing" width="1280" height="800" loading="lazy" draggable="false" />
             </span>
             <span class="card-info">
               <span class="lib-status">Playable &middot; open source</span>
-              <span class="card-name">Magic Table Tracker</span>
+              <span class="card-name">Sigil</span>
               <span class="card-desc">Online MTG tabletop &mdash; hidden zones enforced by Postgres.</span>
               <span class="lib-open">Open project &rarr;</span>
             </span>
@@ -112,8 +112,8 @@
             </span>
             <span class="card-info">
               <span class="lib-status">In development &middot; open source</span>
-              <span class="card-name">BodyTracker</span>
-              <span class="card-desc">Nutrition, lifts, bloodwork, and body metrics &mdash; web + iOS.</span>
+              <span class="card-name">BodyTrack:AI</span>
+              <span class="card-desc">Nutrition, lifts, bloodwork, and body metrics &mdash; web + iOS, read by an AI coach.</span>
               <span class="lib-open">Open project &rarr;</span>
             </span>
           </button>
@@ -131,14 +131,25 @@
           </button>
 
           <button class="lib-card" data-dialog="dlg-finance" type="button">
-            <span class="card-thumb card-thumb-type">
-              <span class="type-letter">F.</span>
-              <span class="type-stack">Next.js &middot; Local-first &middot; TypeScript</span>
+            <span class="card-thumb">
+              <img src="./media/morrow-overview.png" alt="Morrow overview with Safe to Spend" width="1280" height="800" loading="lazy" draggable="false" />
             </span>
             <span class="card-info">
-              <span class="lib-status">Active &middot; private build</span>
-              <span class="card-name">Finance Hub</span>
-              <span class="card-desc">A local-first personal-finance OS &mdash; subscriptions, spending, and insights.</span>
+              <span class="lib-status">Active &middot; open source</span>
+              <span class="card-name">Morrow</span>
+              <span class="card-desc">A calm personal-finance SaaS &mdash; spending, subscriptions, budgets, and Safe to Spend.</span>
+              <span class="lib-open">Open project &rarr;</span>
+            </span>
+          </button>
+
+          <button class="lib-card" data-dialog="dlg-agentic" type="button">
+            <span class="card-thumb">
+              <img src="./media/agentic-kanban.png" alt="Agentic OS Kanban command center" width="1280" height="800" loading="lazy" draggable="false" />
+            </span>
+            <span class="card-info">
+              <span class="lib-status">v0.3.0 &middot; open source</span>
+              <span class="card-name">Agentic OS</span>
+              <span class="card-desc">A local-first command center for coordinating multiple frontier-model agents.</span>
               <span class="lib-open">Open project &rarr;</span>
             </span>
           </button>
@@ -192,7 +203,7 @@
     <dialog class="project-dialog" id="dlg-autopilot" aria-labelledby="ttl-autopilot">
       <div class="dialog-inner">
         <div class="dialog-head">
-          <p class="eyebrow">Active &middot; private build</p>
+          <p class="eyebrow">Active &middot; open source</p>
           <button class="dialog-close" type="button" aria-label="Close">&times;</button>
         </div>
         <h3 id="ttl-autopilot">Autopilot for Windows</h3>
@@ -219,7 +230,7 @@
         </p>
         <p class="dialog-stack">Python &middot; FastAPI &middot; React &middot; FFmpeg &middot; Whisper</p>
         <div class="dialog-actions">
-          <span class="inline-link" style="text-decoration: none; cursor: default;">runs locally &mdash; not published</span>
+          <a class="button button-primary" href="https://github.com/colemclauchlan/autopilot-windows" target="_blank" rel="noreferrer">View source</a>
         </div>
       </div>
     </dialog>
@@ -227,11 +238,12 @@
     <dialog class="project-dialog" id="dlg-storyloom" aria-labelledby="ttl-storyloom">
       <div class="dialog-inner">
         <div class="dialog-head">
-          <p class="eyebrow">Active &middot; private build</p>
+          <p class="eyebrow">Active &middot; open source</p>
           <button class="dialog-close" type="button" aria-label="Close">&times;</button>
         </div>
         <h3 id="ttl-storyloom">Storyloom</h3>
         <div class="dialog-media">
+          <img src="./media/storyloom-graph.png" alt="The Storyloom graph canvas running a full pipeline" loading="lazy" />
           <img src="./media/storyloom-hub.png" alt="The Storyloom hub tab with workflow templates" loading="lazy" />
         </div>
         <p>
@@ -250,7 +262,7 @@
         </p>
         <p class="dialog-stack">React &middot; Vite &middot; React Flow &middot; Three.js &middot; Express</p>
         <div class="dialog-actions">
-          <span class="inline-link" style="text-decoration: none; cursor: default;">runs locally &mdash; not published</span>
+          <a class="button button-primary" href="https://github.com/colemclauchlan/storyloom" target="_blank" rel="noreferrer">View source</a>
         </div>
       </div>
     </dialog>
@@ -291,7 +303,7 @@
           <p class="eyebrow">In development &middot; open source</p>
           <button class="dialog-close" type="button" aria-label="Close">&times;</button>
         </div>
-        <h3 id="ttl-bodytracker">BodyTracker</h3>
+        <h3 id="ttl-bodytracker">BodyTrack:AI</h3>
         <div class="dialog-media">
           <img src="./media/bodytracker.png" alt="BodyTracker landing page" loading="lazy" />
         </div>
@@ -344,28 +356,61 @@
     <dialog class="project-dialog" id="dlg-finance" aria-labelledby="ttl-finance">
       <div class="dialog-inner">
         <div class="dialog-head">
-          <p class="eyebrow">Active &middot; private build</p>
+          <p class="eyebrow">Active &middot; open source</p>
           <button class="dialog-close" type="button" aria-label="Close">&times;</button>
         </div>
-        <h3 id="ttl-finance">Finance Hub</h3>
+        <h3 id="ttl-finance">Morrow</h3>
+        <div class="dialog-media">
+          <img src="./media/morrow-overview.png" alt="Morrow overview — Safe to Spend and upcoming obligations (sample data)" loading="lazy" />
+          <img src="./media/morrow-recurring.png" alt="Morrow recurring — subscriptions and renewal timing (sample data)" loading="lazy" />
+        </div>
         <p>
-          A local-first personal-finance OS. A subscription ledger tracks every
-          recurring charge &mdash; what it costs, when it renews, and the door out
-          &mdash; while a spending module pulls transactions from Gmail receipts
-          and imported bank CSVs, tracks credit-card status, and computes
-          analytics: overview, recurring, online vs. IRL services, a
-          &ldquo;cancel these and save&rdquo; callout, cards &amp; statements, and
-          insights.
+          A calm personal-finance SaaS: spending, recurring charges, budgets,
+          goals, accounts, investments, and an explainable Safe to Spend estimate
+          in one place. Safe to Spend is withheld unless a cash balance was seen
+          in the last 48 hours &mdash; the app would rather say nothing than
+          guess.
         </p>
         <p>
-          It runs entirely on your machine &mdash; no cloud, no accounts, no
-          telemetry. Bank CSVs are parsed and normalized to merchants locally, and
-          recurring charges are inferred only from real billing evidence, never
-          marketing email.
+          Two deliberate deployment modes: fully local (zero credentials, JSON
+          persistence, CSV import, the complete product UI) or SaaS &mdash;
+          Supabase Auth/Postgres tenancy, Stripe Billing, and consent-based
+          Canadian bank sync through Plaid with AES-sealed tokens. Production
+          fails closed unless the data mode is explicit.
         </p>
-        <p class="dialog-stack">Next.js &middot; TypeScript &middot; Local-first</p>
+        <p class="dialog-stack">Next.js &middot; Supabase &middot; Stripe &middot; Plaid</p>
         <div class="dialog-actions">
-          <span class="inline-link" style="text-decoration: none; cursor: default;">runs locally &mdash; private (handles real financial data)</span>
+          <a class="button button-primary" href="https://github.com/colemclauchlan/morrow" target="_blank" rel="noreferrer">View source</a>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="project-dialog" id="dlg-agentic" aria-labelledby="ttl-agentic">
+      <div class="dialog-inner">
+        <div class="dialog-head">
+          <p class="eyebrow">v0.3.0 &middot; open source</p>
+          <button class="dialog-close" type="button" aria-label="Close">&times;</button>
+        </div>
+        <h3 id="ttl-agentic">Agentic OS</h3>
+        <div class="dialog-media">
+          <img src="./media/agentic-kanban.png" alt="Agentic OS Kanban command center in the phosphor-green terminal theme" loading="lazy" />
+        </div>
+        <p>
+          A local-first Windows desktop command center for coordinating several
+          frontier-model agents on one project: a Kanban task surface, active-agent
+          visibility, durable messages and decisions, and a GitHub-backed project
+          catalog &mdash; wrapped in a near-black, phosphor-green terminal theme.
+        </p>
+        <p>
+          The coordination kernel is the interesting part: reproducible context
+          packs for every run, atomic resource leases with fencing tokens so agents
+          can't clobber each other, an append-only hash-chained SQLite journal, and
+          encrypted (AES-256-GCM) profile sync so a second machine can adopt the
+          same setup through a private repo.
+        </p>
+        <p class="dialog-stack">Electron &middot; TypeScript &middot; React &middot; SQLite</p>
+        <div class="dialog-actions">
+          <a class="button button-primary" href="https://github.com/colemclauchlan/agentic-os" target="_blank" rel="noreferrer">View source</a>
         </div>
       </div>
     </dialog>
